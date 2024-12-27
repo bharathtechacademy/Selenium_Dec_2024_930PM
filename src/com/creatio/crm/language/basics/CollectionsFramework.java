@@ -1,6 +1,7 @@
 package com.creatio.crm.language.basics;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
@@ -286,6 +287,10 @@ public class CollectionsFramework {
 		Map<String,String > student3Map = new HashMap<String,String>();
 		
 		List<Map<String,String >> studentList = new ArrayList<Map<String,String >>();
+		studentList.add(student1Map);
+		studentList.add(student2Map);
+		studentList.add(student3Map);
+		
 		List<Map<String,String >> empList = new ArrayList<Map<String,String >>();
 		List<Map<String,String >> productList = new ArrayList<Map<String,String >>();
 		
@@ -294,7 +299,8 @@ public class CollectionsFramework {
 		data.put("ProductData", productList);
 		
 		data.get("ProductData").get(1).get("Supplier");
-
+		
+		
 	}
 
 }
