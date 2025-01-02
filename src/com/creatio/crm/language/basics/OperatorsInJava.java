@@ -11,6 +11,13 @@ public class OperatorsInJava {
 //	5. Ternary Operator	 ( ? --> Used as a shorthand for if-else statements.)
 
 	public static void main(String[] args) {
+		
+		//Auto Boxing		
+		int x = 5;
+		Integer y = x;
+		
+		//Un-boxing
+		int z =y;
 
 		System.out.println("*******Arithmetic Operators********");
 		int a = 10;
@@ -46,9 +53,9 @@ public class OperatorsInJava {
 		System.out.println(d<e);
 		
 		System.out.println("*******Logical Operators********");
-		int x = 10;
-		int y = 20;
-		int z = 10;
+//		int x = 10;
+//		int y = 20;
+//		int z = 10;
 		
 		System.out.println(x>y &&  x==z); //false and true = false
 		
