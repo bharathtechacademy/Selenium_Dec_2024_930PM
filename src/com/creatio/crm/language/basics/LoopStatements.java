@@ -17,6 +17,8 @@ public class LoopStatements {
 		
 		// for loop ==> used when we know the total number of iterations to be executed before itself.
 		
+		// for-each loop ==>
+		
 //		for(condition1 ; condition2 ; condition3) {  //condition1 --> where to start , condition2 --> where to end , condition3 --> Interval 
 //			statements;
 //		}
@@ -26,6 +28,8 @@ public class LoopStatements {
 		}
 		
 		// while loop ==> used when we don't know the total number of iterations to be executed before.
+		
+		// do-while loop ==>
 		
 //		while(condition) {
 //			//statements

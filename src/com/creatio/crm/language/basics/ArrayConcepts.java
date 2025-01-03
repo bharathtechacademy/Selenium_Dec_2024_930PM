@@ -14,9 +14,11 @@ public class ArrayConcepts {
 		String [] [] empGroups = new String [3] [2] ;
 		
 		empGroups[0][0] = "Amit";
-		empGroups[0][1] = "Trivin";
-		
+		empGroups[0][1] = "Trivin";		
 		empGroups[1][1] = "Geetha";
+		
+		String [] [] [] empGroups2 = {{ {"Amit","Ananth"}, {"Geetha","Devi"}, {"Sumit","Bharath"}}, { {"Amit","Ananth"}, {"Geetha","Devi"}, {"Sumit","Bharath"}}};
+		
 		
 		
 		String [] [] [] empRoleGroups = new String [3] [2] [3] ;
