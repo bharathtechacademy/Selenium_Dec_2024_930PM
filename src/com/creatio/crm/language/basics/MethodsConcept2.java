@@ -76,13 +76,14 @@ public class MethodsConcept2 {
 //		System.out.println("Logout from application");
 //		System.out.println("Close the browser");
 
+
 	}
 	
 	//***************END OF MAIN*****************/
 	
-
+	//method without return type
 	 void launchBrowserAndApplication() {
-		System.out.println("Launch the edge browser");
+		System.out.println("Launch the chrome browser");
 		System.out.println("Enter url and launch application");
 	}
 
@@ -97,6 +98,7 @@ public class MethodsConcept2 {
 		System.out.println("Close the browser");
 	}
 
+	//method with return type
 	 double navigateToAccountsAndGetBalance() {
 		System.out.println("Naviagate to accounts page");
 		System.out.println("Copy Account Bance and Store for future");
