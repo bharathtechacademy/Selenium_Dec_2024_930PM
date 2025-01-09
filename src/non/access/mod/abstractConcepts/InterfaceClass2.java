@@ -1,11 +1,9 @@
 package non.access.mod.abstractConcepts;
 
-public  class AbsClass2 extends AbsClass1{
+public class InterfaceClass2 implements InterfaceClass1{
 
 	public static void main(String[] args) {
-//		AbsClass1 obj = new AbsClass1();
-		AbsClass2 obj = new AbsClass2();
-		obj.logoutFromApplication();
+		
 	}
 
 	@Override
@@ -20,6 +18,17 @@ public  class AbsClass2 extends AbsClass1{
 		
 	}
 
+	@Override
+	public void logoutFromApplication() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void signUp() {
+		// TODO Auto-generated method stub
+		
+	}
 
 
 }
