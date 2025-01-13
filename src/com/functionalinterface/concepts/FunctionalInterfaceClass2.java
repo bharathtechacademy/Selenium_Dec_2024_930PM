@@ -11,12 +11,11 @@ public class FunctionalInterfaceClass2 implements FunctionalInterfaceClass1{
 		return status;
 	}
 
-//	@Override
-//	public int sum(int a, int b) {
-//		int c = a+b;
-//		return c;
-//		
-//	}
+	public int sum(int a, int b) {
+		int c = a+b;
+		return c;
+		
+	}
 	
 	
 
